@@ -1,0 +1,96 @@
+body{
+  margin: 0px;
+  height: 100vh;
+}
+
+.topheader{
+    margin: 0px;
+    padding: 0px;
+    background-color: #272727;
+    color: aliceblue;
+}
+.secondheader{
+    border: solid;
+    border-color: rgb(169, 169, 169);
+    border-width: 1px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+}
+
+.parent-inline-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#child2{
+    width: 80%;
+}
+#child3{
+    width: 40%;
+}
+#child4{
+    width: 40%;
+}
+
+h3 {
+    margin: 1.5rem 0 .25em;
+    clear: both;
+  }
+  .parent {
+    background: rgb(255, 255, 255);
+    padding: 1rem
+  }
+  .child {
+    padding: 1rem
+  }
+
+.main-inline-flex{
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  flex-grow: 1;
+}
+.grid-parent {
+  display: grid;
+  grid-template-columns: 1fr 1fr
+}
+.aside{
+  width: 300px;
+}
+.Examples{
+  margin-left: 40px;
+}
+
+.stuff{
+  height: 100%;
+  width: 90%;
+  border-left: solid;
+  padding: 10px;
+  border-color: rgb(169, 169, 169);
+  border-width: 1px;
+}
+
+.folders{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.label_folder{
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  align-content: center;
+  color: rgb(75, 75, 75);
+}
+.folder_icon{
+  border-bottom: solid;
+  border-color: rgb(169, 169, 169);
+  border-width: 1px;
+  height: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.label_sequence{
+  color: rgb(75, 75, 75);
+  padding-top: 10px;
+}
